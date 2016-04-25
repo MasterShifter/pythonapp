@@ -5,7 +5,7 @@ import mysql.connector as mariadb
 def consultas():
     html = '<h2>Modulos:</h1>'
     html += showSelect("select idModulo, Alias, idGrupo from modulos LIMIT 10")
-    html += '<h2>Grupos:</h1>'
+    html += '<h2>Grupos hola a todo el mundo:</h1>'
     html += showSelect("select * from grupos LIMIT 10")
     html += '<h2>Incidencias:</h1>'
     html += showSelect("select * from incidencias LIMIT 10")
